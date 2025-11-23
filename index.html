@@ -180,23 +180,23 @@
 										a technique that improves chatbot accuracy by retrieving relevant information from a knowledge source before generating a response. Together, these concepts helped us understand how modern chatbots operate and handle real-world queries.
 									</p>
 									<h2><strong><center>Exercises</center></strong></h2>
-									<img src="images/exer3.png" alt="Machine Learning" style="width: 50%; max-width: 400px; display: block; margin: 0 auto;" />
+									<img src="images/exerM1.png" alt="Machine Learning" style="width: 50%; max-width: 400px; display: block; margin: 0 auto;" />
 									<p style="text-align: justify;">
 										For the first exercise in the midterm, we were tasked with documenting in an e-portfolio everything we studied and developed during the preliminary period of the semester. This documentation included our experiences, understanding of the lessons, and reflections on the tasks and topics completed during that term.
 									</p>
-									<img src="images/exer3.png" alt="Machine Learning" style="width: 50%; max-width: 400px; display: block; margin: 0 auto;" />
+									<img src="images/exerM2.png" alt="Machine Learning" style="width: 50%; max-width: 400px; display: block; margin: 0 auto;" />
 									<p style="text-align: justify;">
 										The second exercise involved implementing and evaluating four core NLP tasks using a rental review dataset: Spam/HAM Classification, Sentiment Analysis, Part-of-Speech (POS) Tagging, and Text Summarization. Using spaCy and scikit-learn, each model was trained, tested, and evaluated using appropriate metrics such as accuracy, precision, 
 										recall, F1-score, ROUGE, cosine similarity, and compression ratio. The results showed strong performance in the classification tasks, with Spam/HAM achieving 90% accuracy and Sentiment Analysis reaching 92.2%. POS tagging performed reliably using a pre-trained model, while the extractive summarizer produced concise summaries with moderate ROUGE and high cosine similarity scores. 
 										Overall, the exercise demonstrated how NLP models can process unstructured text and highlighted the importance of proper evaluation in assessing model effectiveness.
 									</p>
-									<img src="images/exer3.png" alt="Machine Learning" style="width: 50%; max-width: 400px; display: block; margin: 0 auto;" />
+									<img src="images/exerM3.png" alt="Machine Learning" style="width: 50%; max-width: 400px; display: block; margin: 0 auto;" />
 									<p style="text-align: justify;">
 										The third exercise focused on developing and evaluating a BERT-based Question-and-Answer (QnA) system using a Philippine News Agency article as the context. Three pretrained transformer models BERT-base, DistilBERT, and BERT-large were tested on ten manually created questions. The models were evaluated using Exact Match (EM), F1 score, and inference time. 
 										Results showed that EM scores were low (20–30%) due to strict word-for-word matching, while F1 scores (59–61%) better reflected the models’ ability to capture correct meanings. 
 										DistilBERT delivered the fastest inference time (~3 seconds per query) while maintaining accuracy similar to the larger models. Overall, the exercise demonstrated the trade-off between model size, accuracy, and efficiency, highlighting DistilBERT as the most practical choice for real-time QnA applications.
 									</p>
-									<img src="images/exer3.png" alt="Machine Learning" style="width: 50%; max-width: 400px; display: block; margin: 0 auto;" />
+									<img src="images/exerM4.png" alt="Machine Learning" style="width: 50%; max-width: 400px; display: block; margin: 0 auto;" />
 									<p style="text-align: justify;">
 										The final exercise in the midterm focused on researching Large Language Models (LLMs), LangChain, and Retrieval-Augmented Generation (RAG). The study examined why AI chatbots often produce inaccurate or misleading responses, highlighting issues such as hallucinations, outdated knowledge, and overly confident wrong answers. 
 										RAG was introduced as a solution that improves accuracy by retrieving relevant information from external sources before generating a response. LangChain was also analyzed as a tool that helps developers build RAG systems by providing components such as document loaders, text splitters, vector stores, and retrievers. 
@@ -204,12 +204,12 @@
 									</p>
 
 									<h2><strong><center>Exams & Quizzes</center></strong></h2>
-									<img src="images/exer3.png" alt="Machine Learning" style="width: 50%; max-width: 400px; display: block; margin: 0 auto;" />
+									<img src="images/MQ1.jpg" alt="Machine Learning" style="width: 50%; max-width: 400px; display: block; margin: 0 auto;" />
 									<p style="text-align: justify;">
 										In the quiz section, I was asked how LangChain and RAG work together to use external data and help LLMs generate more accurate outputs. I explained that the user begins by creating a question (query), which is sent to the LLM. Then, LangChain organizes the process by connecting the LLM to the needed tools and data. After that, 
 										RAG retrieves updated and relevant information from external sources. This retrieved data is then used by the model to generate a more accurate and reliable answer.
 									</p>
-									<img src="images/exer3.png" alt="Machine Learning" style="width: 50%; max-width: 400px; display: block; margin: 0 auto;" />
+									<img src="images/MT1.jpg" alt="Machine Learning" style="width: 50%; max-width: 400px; display: block; margin: 0 auto;" />
 									<p style="text-align: justify;">
 										In the exam, one scenario asked me to explain how the two-fold process works and how it allows BERT to determine the sentiment of a text. I was also asked to describe how BERT’s training process helps it understand word context better than traditional algorithms. 
 										To answer briefly, I did not perform well on this part because I did not fully understand how the two-fold process and its effects on BERT’s behavior in its applications.
@@ -250,14 +250,17 @@
 										Random Search selects parameter combinations randomly, making it faster and more efficient, especially in situations where time and resources are limited.
 									</p>
 									<h2><strong><center>Exercises</center></strong></h2>
+									<img src="images/exerF1.png" alt="Machine Learning" style="width: 50%; max-width: 400px; display: block; margin: 0 auto;" />
 									<p style="text-align: justify;">
 										The first exercise in the finals focused on fine-tuning a DistilBERT model for classifying MMDA traffic incident tweets. Using the “Manila Traffic Incident Data” dataset, I followed a complete workflow that included cleaning the text data, tokenizing the tweets, preparing label mappings, and configuring the model for training. Several hyperparameter combinations were tested, 
 										and each configuration was evaluated using accuracy, precision, recall, and F1-score. Among the different setups, the configuration with weight_decay = 0.03, warmup_steps = 750, and logging_steps = 50 achieved the best results with 96.58% accuracy and a 95.44% F1-score. This exercise demonstrated how proper hyperparameter tuning greatly affects model performance and showed that transformer models like DistilBERT can effectively classify real-world traffic incident tweets from MMDA.
 									</p>
+									<img src="images/exerF2.png" alt="Machine Learning" style="width: 50%; max-width: 400px; display: block; margin: 0 auto;" />
 									<p style="text-align: justify;">
 										The second exercise focused on the automated hyperparameter optimization of a DistilBERT model using Optuna’s Random Search framework. The goal was to improve the performance of a traffic incident classification model trained on the MMDA Traffic Incident dataset. After preprocessing the data, initializing the model, and preparing evaluation metrics, Optuna automatically tested different combinations of learning rate, weight decay, and number of training epochs. 
 										Three optimization trials were executed, and each trial showed improvements over the baseline configuration. The best-performing setup achieved an accuracy of 0.967 and an F1-score of 0.957, using a learning rate of 4.0e-05, six training epochs, and a weight decay of 0.01. This exercise demonstrated how automated Random Search reduces manual tuning time while still finding effective hyperparameter combinations for improving DistilBERT’s classification performance on real-world MMDA traffic data.
 									</p>
+									<img src="images/P1.png" alt="Machine Learning" style="width: 50%; max-width: 400px; display: block; margin: 0 auto;" />
 									<p style="text-align: justify;">
 										The final project focused on building an AI-driven traffic congestion detection system using a fine-tuned DistilBERT sentiment classifier applied to MMDA traffic-related tweets.
 										 The workflow involved preparing the dataset, cleaning traffic text, generating sentiment labels using VADER when needed, and converting the data into a format compatible with Hugging Face. The model was fine-tuned through repeated training trials, and a Random Search procedure was used to identify the best hyperparameter combination for sentiment classification.
@@ -270,11 +273,20 @@
 									</p>
 									<h2><strong><center>Exams & Quizzes</center></strong></h2>
 									<p style="text-align: justify;">
-										
+										The exam and quizzes were taken on the same day. In the quiz portion, I was asked about the difference between Random Search and Grid Search. I explained that Grid Search tests every possible hyperparameter combination to find the best-performing setup, while Random Search randomly selects combinations and evaluates which one works best.
+									</p>
+									<p style="text-align: justify;">
+										In the exam portion, we were asked to create a diagram showing pre-training and fine-tuning and then explain the difference between them. I created a diagram that illustrated how pre-training focuses on learning language structure, grammar, and general meaning, while fine-tuning trains the model on a specific task to improve its performance for that particular application.
+									</p>
+									<p style="text-align: justify;">
+										For the final part of the exam, we were asked to describe our contributions to the project, identify one challenge we encountered, and explain how we overcame it. I answered that I developed the entire pipeline, and the challenge I faced was that even small adjustments could cause major effects on the system. I overcame this by carefully testing, debugging, and ensuring each fix did not break the flow of the overall pipeline.
 									</p>
 									<h2><strong><center>Learning Reflection</center></strong></h2>
 									<p style="text-align: justify;">
-
+										In the final term, I learned how to properly fine-tune and optimize transformer models like DistilBERT. Working on the exercises and the final project helped me understand how important preprocessing, hyperparameter tuning, and evaluation metrics are in building an effective NLP model. I also realized how small changes in parameters can greatly affect the model’s performance.
+									</p>
+									<p style="text-align: justify;">
+										Building the full pipeline for the project was challenging, especially because even minor fixes could affect the entire system. However, by testing and debugging carefully, I was able to make everything work. This experience made me more confident in applying NLP techniques to real-world problems, especially in traffic detection and analysis. Overall, the final term helped me improve my technical skills and understand how to create reliable NLP workflows from start to finish.
 									</p>
 								</ul>
 						</article>
